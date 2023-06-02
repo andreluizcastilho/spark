@@ -1,0 +1,6 @@
+!pip install pyspark
+
+from pyspark.sql import *
+from pyspark.sql.functions import *
+spark = SparkSession.builder.getOrCreate()
+from builtins import *
